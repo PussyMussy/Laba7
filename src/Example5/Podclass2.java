@@ -1,9 +1,9 @@
 package Example5;
 
-public class SubClassTwo extends SuperClass{
+public class Podclass2 extends Superclass {
     protected char charField;
 
-    public SubClassTwo(String stringField, char charField) {
+    public Podclass2(String stringField, char charField) {
         super(stringField);
         this.charField = charField;
     }
